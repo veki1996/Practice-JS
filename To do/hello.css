@@ -1,0 +1,33 @@
+body{
+    margin: 20px 50px;
+}
+#first-step{
+    text-align: center;
+    background-color: red;
+}
+ul {
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s; 
+    list-style: none;
+ 
+}
+li{
+ 
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+ul li:hover {
+    background: #ddd;
+  }
+button{
+      margin: inherit;
+      border-style: none;
+  }
+
+

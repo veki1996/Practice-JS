@@ -1,0 +1,23 @@
+.single-card {
+    text-align: center;
+    box-shadow: 0px 0px 13px grey;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    background-color: #98B4D4;
+    color: #343148;
+    
+}
+
+.single-card button{
+    margin: 5px;
+}
+#cards{
+    display: flex;
+}
+.movie-tittle{
+    margin: 10px;
+}
+#total{
+    text-align: end;
+}

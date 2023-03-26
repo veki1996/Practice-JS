@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>5</title>
+
+</head>
+
+<body>
+
+  <div class="MENU">
+    <h1>sneakers</h1>
+    <ul>
+      <li>Collections</li>
+      <li>Men</li>
+      <li>Women</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+    <div class="card">
+      <h1 class="numInCard">0</h1>
+      <img class="korpa" style="width: 50px; height:50px; padding-left: 15px;" src="images/card.png">
+      <img style="width: 60px;height:40px; border-radius: 50%;" src="images/image-avatar.png">
+    </div>
+  </div>
+
+  </div>
+  <hr />
+  <div class="ceck">
+    <p><b>Cart</b></p>
+    <hr style="width: 300px;" />
+    <div class="put">
+    </div>
+    <div class="ceckbtn">
+      <button>Checkout</button>
+    </div>
+
+  </div>
+
+  <div class="Shoping">
+    <div>
+      <img style="height: 500px;" class="glavnaSL" src="images/slika1.jpg">
+      <div class="imgSlider">
+        <img src="images/slika1.jpg">
+        <img src="images/slika2.jpg">
+        <img src="images/slika3.jpg">
+        <img src="images/slika4.jpg">
+      </div>
+    </div>
+    <div class="shopingText">
+      <h3 style="color: #ff8100; margin: 0px; font-size: 16px;">SNEAKER COMPANY</h3>
+      <h1 class="name" style="font-size: 43px;">Fall Limited Edition Sneakers</h1>
+      <p style="font-family: cursive;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus
+        perspiciatis, consequuntur ex facilis
+        nobis quaerat aliquam! Quam, aspernatur aut accusamus qui facere repudiandae neque expedita minima quaerat, ab
+        quibusdam harum!
+      </p>
+      <div class="price">
+        <p class="prices" style="font-size: 25px;margin-bottom: 0px;">$125.00</p>
+        <p class="sale">50%</p>
+      </div>
+      <p style="margin-top: 0px; text-decoration: line-through;">$250.00</p>
+      <div class="addToCard">
+        <img class="minus" style="width: 50px; height: 50px; padding-right: 15px;" src="images/minus.jpg">
+        <h1 id="number">0</h1>
+        <img class="plus" style="width: 50px; height:50px; padding-left: 15px;" src="images/plus.jpg">
+
+        <button onclick="dodaj(this)" class="btn">Add to card</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modalBTN">
+    <div class="imageSlider">
+     
+      <img class="minusSlider" src="images/minus.jpg">
+      <p class=" iks">X</p>
+      <img id="slika1" class="imagesS" name="slika1" src="images/slika1.jpg">
+      <img class="imagesS" id="slika2" name="slika2" style="display: none;" src="images/slika2.jpg">
+      <img class="imagesS" id="slika3" name="slika3" style="display: none;" src="images/slika3.jpg">
+      <img class="imagesS" id="slika4" name="slika4" style="display: none;" src="images/slika4.jpg">
+      <img class="plusSlider" src="images/plus.jpg">
+      <div class="oderPic">
+        <img onclick="PicturesF(this)" name="slika1" src="images/slika1.jpg">
+        <img onclick="PicturesF(this)" name="slika2" src="images/slika2.jpg">
+        <img onclick="PicturesF(this)" name="slika3" src="images/slika3.jpg">
+        <img onclick="PicturesF(this)" name="slika4" src="images/slika4.jpg">
+      </div>
+    </div>
+
+
+  </div>
+  <script src="index.js"></script>
+
+</body>
+
+</html>

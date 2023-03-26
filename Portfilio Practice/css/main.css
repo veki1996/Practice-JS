@@ -1,0 +1,393 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;   
+    background-color:  #e6e6e6;
+}
+ li {
+    padding:0px 10px;
+}
+.un-list1{
+    margin: 0px;
+}
+
+ul img{
+    width:170px;
+    height:50px;
+   
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    background-color: #0d2744;
+    align-items:center;
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav a:hover{
+    color: #F50505;
+}
+.link1:hover{
+    color: red;
+}
+.logo{
+    position:absolute;
+    left:10px;
+}
+.first-part{
+    background-image:url("../images/slika1.jpg") ;
+    background-repeat: no-repeat;
+    width: 100%%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    margin: 0px;
+    
+}
+
+.heading1{
+    font-size: 58px;
+    margin-top: 2px;
+    }
+
+.heading2{
+    margin-bottom: 0px;
+    font-size: 31px;
+}
+.heading3{
+    width: 83%;
+}
+.heading4{
+    padding-top: 60px;
+    text-align:center;
+}
+
+.link1{
+    color:black;
+} 
+
+
+.link2{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 21px;
+    font-family: cursive;
+}
+
+.text-holder img{
+
+    width: 70px;
+    height: 70px;
+}
+
+svg:hover path{
+    fill: blue;
+}
+
+.first-step{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    background-color: rgba(231, 22, 53, 0.4);
+    padding: 0 40px;
+}
+
+.text-holder{
+    color: white;
+    font-size: x-large;
+    text-align:center;
+}
+
+.bojan{
+text-align:center; 
+color: aliceblue; 
+font-size: 26px;
+
+}
+.wrapper{
+    margin: auto;
+    max-width: 1200px;
+    width:95%;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.second-part{
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    width:95%;
+    justify-content: center;
+    height: 700px ;
+    margin-bottom: 20px;
+    
+}
+.second-step2{
+    background-image:url("../images/slika2.jpg") ;
+    margin-top: 20px;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+
+}
+.second-step{
+    margin-top: 20px;
+    background-color: white;
+    padding: 50px;
+}
+.icons{
+    display:flex;
+}
+
+.images-step3{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+ .img-holder{
+    
+    height: 194px;
+}
+.part3{
+
+    display: flex;
+    max-width: 900px;
+    margin-top: 20px;
+    background-color: white;
+
+}
+
+.step-tree{
+    background-color:white;
+    margin: 0px;
+    width: 50%;
+}
+.step-tree img{
+    width: 100%;
+    align-items: center;
+
+}
+
+.project{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+    background-color: white;
+   text-align: center;
+}
+.step-tree2{
+    background-color: white;
+    width: 50%;
+}
+.step-tree2 img {
+    width: 100%;
+    align-items: center;
+}
+
+
+.about-bojan{
+    line-height:2;
+}
+.last{
+    display: flex;
+}
+
+.network{
+    font-size: 18px;
+}
+
+.media{
+    display: flex;
+    justify-content:end;
+}
+
+
+.skills-holder{
+    width: 80%;
+}
+.skills-holder p{
+    margin: 0;
+ 
+}
+.skill1::after{
+    display: inline-block;
+    width: 40%;
+    border-bottom: 8px solid white;
+    content: "";
+    margin-bottom: 10px;
+}
+
+.skill2::after{
+    display: inline-block;
+    width: 60%;
+    border-bottom: 8px solid white;
+    content: "";
+    margin-bottom: 10px;
+}
+
+.skill3::after{
+    display: inline-block;
+    width: 80%;
+    border-bottom: 8px solid white;
+    content: "";
+    margin-bottom: 10px;
+}
+.skill4::after{
+    display: inline-block;
+    width: 80%;
+    border-bottom: 8px solid white;
+    content: "";
+    margin-bottom: 10px;
+}
+
+
+.testimonials{
+	margin: 20px auto;
+	display:grid;
+	grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+	grid-gap:20px;
+    max-width: 1200px;
+    width: 95%;
+}
+.testimonials .card{
+	position:relative;
+	margin:0px auto;
+	background:rgb(255, 255, 255);
+	padding:20px;
+	box-sizing: border-box;
+	text-align:center;
+	box-shadow:0 10px 40px rgba(212, 206, 206, 0.5);
+	overflow: hidden;
+    width: 380px;
+    
+}
+.testimonials .card .layer{
+    position: absolute;
+	top: calc(100% - 3px);
+	width:100%;
+	height:100%;
+	left:0;
+	background:linear-gradient(#34495e, #34495e);
+	z-index:1;
+	transition:0.5s;
+   
+}
+.testimonials .card:hover .layer{
+	top:0;
+}
+.testimonials .card .content{
+	position:relative;
+	z-index:2;
+}
+.testimonials .card .content p{
+	font-size:18px;
+	line-height:24px;
+	color:rgb(0, 0, 0);
+}
+.testimonials .card .content .image{
+	width:100px;
+	height:100px;
+	margin: 0 auto;
+	border-radius:50%;
+	overflow:hidden;
+	box-shadow: 0 10px 20px rgba{0,0,0, .2};
+}
+ .card .content .details h2{
+	font-size:15px;
+	color:#34495e;
+}
+ .card .content .details h2 span{
+	color:#313396;
+	font-size:12px;
+	transition: 0.5s;
+}
+.card:hover .content .details h2 {
+	color:rgba(255, 255, 255, 0.986);
+}
+
+.card:hover .content p {
+	color:rgba(255, 255, 255, 0.986);
+}
+.card:hover .content h2 span {
+	color:rgba(255, 255, 255, 0.986);
+}
+
+.futer1{
+   
+    text-align: center;
+    color: white;
+}
+.first-1{
+    background-color:#34495e;
+}
+
+.futer2{
+   
+ justify-content: space-evenly;
+ display: flex;
+ color: white;
+ background-color: #34495e;
+ padding-bottom: 20px;
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+    .second-part {
+       flex-direction: column;
+       height: auto;
+        
+    }
+    .step-tree{
+        width: 100%;
+    }
+    .step-tree2{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .part-four {
+        height: auto;
+    }
+
+    .media{
+        flex-direction: column;
+    }
+    .first-part{
+        width: 90%;
+    }
+    .part-four{
+        width: 90%;
+    }
+
+    .heading1{
+        font-size: 40px;
+        
+        }
+    .heading2{
+        margin-bottom: 0px; 
+        font-size: 20px;
+    }
+    .second-step2{
+        width: 50%;
+     
+    }
+    .skills-holder{
+        margin-bottom: 100px;
+    }
+  
+}
